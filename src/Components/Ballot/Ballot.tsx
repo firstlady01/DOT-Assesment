@@ -54,7 +54,7 @@ const Ballot = () => {
           </div>
           <div className="row">
             {nominee.items.map((details: any) => (
-              <div className="col-4 mb-5">
+              <div className=" col-sm-12 col-lg-4 col-md-4 mb-5">
                 <NomineeCard
                   title={details.title}
                   image={details.photoUrL}
